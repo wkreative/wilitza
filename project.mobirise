@@ -26,14 +26,17 @@
     "mcShopcart": {
       "email": "josejimenezmorales@hotmail.com"
     },
-    "publishType": "github"
+    "publishType": "github",
+    "favicon": "@PROJECT_PATH@/assets/images/wilit-128x128-16.png",
+    "noImageResize": "",
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
-        "meta_descr": "",
+        "title": "Wilitza Collections",
+        "meta_descr": "Variedad los mejores precios y el mejor servicio siempre...",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -466,7 +469,7 @@
             }
           },
           "title": "&nbsp;WILIZTA COLLECTIONS",
-          "list": "<ul><li><a href=\"\">VARIEDAD</a></li><li><a href=\"index.html#extShop1-1\">SERVICIO</a></li><li><a href=\"index.html#form1-2\">CONTÁCTANOS</a></li></ul>",
+          "list": "<ul><li><a href=\"\">VARIEDAD</a></li><li><a href=\"index.html#form1-2\">SERVICIO</a></li><li><a href=\"index.html#form1-2\">CONTÁCTANOS</a></li></ul>",
           "_styles": {
             ".mbr-section-title": {
               "font-size": "20px",
