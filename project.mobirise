@@ -1,0 +1,480 @@
+{
+  "settings": {
+    "name": "Wilitzamir",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#f28281",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "3.9.0",
+    "uniqCompNum": 6,
+    "versionPublish": "3.9.0",
+    "mcShopcart": {
+      "email": "josejimenezmorales@hotmail.com"
+    },
+    "publishType": "github"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1f2128"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2e323c!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#353945"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#353945",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "shopping-bag",
+              "family": "FontAwesome",
+              "link": "#top",
+              "size": 0,
+              "active": true,
+              "color": "#b8312f",
+              "newWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">WILIZTA COLLECTIONS</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">INICIO</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#extShop1-1\" aria-expanded=\"true\">TIENDA</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-2\" aria-expanded=\"true\">CONTÁCTANOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#extShop1-1\">ESPECIALES</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-3",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/gift-548296-1920-2000x1333-16.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "Últimos Estilos",
+          "text": "Variedad los mejores precios y el mejor servicio siempre...",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#extShop1-1\" data-toolbar=\"-mbrBtnMove\">TIENDA</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#form1-2\" data-toolbar=\"-mbrBtnMove\">CONTÁCTANOS</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
+            },
+            ".mbr-section-lead": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".galleryItem h4:hover": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li.active": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li:hover": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li:before": {
+              "background": "@primaryColor"
+            },
+            ".min-toggle:hover, .max-toggle:hover": {
+              "background-color": "@primaryColor"
+            },
+            ".shop-title": {
+              "font-family": "@titleFont"
+            },
+            ".categories-titles .mbr-gallery-filter ul li": {
+              "font-family": "@titleFont"
+            },
+            ".max-input": {
+              "font-family": "@titleFont"
+            },
+            ".min-input": {
+              "font-family": "@titleFont"
+            },
+            ".item-title": {
+              "font-family": "@titleFont"
+            },
+            ".item-subtitle": {
+              "font-family": "@subtitleFont"
+            },
+            ".card-description": {
+              "font-family": "@textFont"
+            },
+            ".shop-item-price": {
+              "font-family": "@titleFont"
+            }
+          },
+          "closeModal": "<a class=\"btn btn-primary modalButton\" mbr-on-click=\"_onCloseModalClick\">Close</a>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extShop1",
+          "_params": {
+            "showSidebar": true,
+            "paddingTop": "3",
+            "paddingBottom": 2,
+            "filterBgColor": false,
+            "fontHoverColor": "@primaryColor",
+            "mainTitle": "@titleFont",
+            "mainSubTitle": "@subtitleFont",
+            "mainText": "@textFont",
+            "images": [
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "active": false,
+                "tags": "Awesome",
+                "bestSeller": true,
+                "thumb": "@PROJECT_PATH@/assets/images/15268088-348058348895321-2092261598623608784-n-2000x2666-84-2000x2666-42.jpg",
+                "image": "@PROJECT_PATH@/assets/images/15268088-348058348895321-2092261598623608784-n-2000x2666-84.jpg",
+                "onsale": "-50%",
+                "itemTitle": "MK Style 1",
+                "itemSubtitle": "Wilitza Collection",
+                "itemPrice": "$40.00",
+                "itemDescription": "Beware! It can fly away. We make no guarantees.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>367DDF5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=40&amp;item_name=Comprar+Ahora!&amp;currency_code=USD\" class=\"btn btn-primary\">Comprar Ahora!</a>"
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "tags": "Wonderful",
+                "bestSeller": false,
+                "thumb": "@PROJECT_PATH@/assets/images/wilitza-2-2000x2666-85-2000x2666-73.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wilitza-2-2000x2666-85.jpg",
+                "onsale": "-50%",
+                "itemTitle": "MK Style 2",
+                "itemSubtitle": "Wilitza Collection",
+                "itemPrice": "$40.00",
+                "itemDescription": "There are contraindications.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>34567F5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=40.00&amp;item_name=Comprar+Ahora!&amp;currency_code=USD\" class=\"btn btn-primary\">Comprar Ahora!</a>",
+                "active": true
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "tags": "Creative",
+                "bestSeller": false,
+                "thumb": "@PROJECT_PATH@/assets/images/wilitza-3-2000x2666-77-2000x2666-92.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wilitza-3-2000x2666-77.jpg",
+                "onsale": "-50%",
+                "itemTitle": "MK Style 3",
+                "itemSubtitle": "Wilitza Collection",
+                "itemPrice": "$60.00",
+                "itemDescription": "Some cool bicycle.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>3476DF5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=60&amp;item_name=Comprar+Ahora!&amp;currency_code=USD\" class=\"btn btn-primary\">Comprar Ahora!</a>",
+                "active": false
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "tags": "Creative",
+                "bestSeller": false,
+                "thumb": "@PROJECT_PATH@/assets/images/wilitza-6-2000x2666-11-2000x2666-77.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wilitza-6-2000x2666-11.jpg",
+                "onsale": "-50%",
+                "itemTitle": "TO Style 4",
+                "itemSubtitle": "Wilitza Collection",
+                "itemPrice": "$60.00",
+                "itemDescription": "You should believe it works, otherwise there is no magic!<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>3478DF5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=60&amp;item_name=Comprar+Ahora!&amp;currency_code=USD\" class=\"btn btn-primary\">Comprar Ahora!</a>",
+                "active": false
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "tags": "Creative",
+                "bestSeller": true,
+                "thumb": "@PROJECT_PATH@/assets/images/wilitza-8-2000x2666-65-2000x2666-14.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wilitza-8-2000x2666-65.jpg",
+                "onsale": "-50%",
+                "itemTitle": "LV Style 5",
+                "itemSubtitle": "Wilitza Collection",
+                "itemPrice": "$80.00",
+                "itemDescription": "Has no weight! Try not to lose it.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>34GFDF5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=80&amp;item_name=Comprar+Ahora!&amp;currency_code=USD\" class=\"btn btn-primary\">Comprar Ahora!</a>",
+                "active": false
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "tags": "Wonderful",
+                "bestSeller": false,
+                "thumb": "@PROJECT_PATH@/assets/images/wilitza-9-2000x2666-76-2000x2666-59.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wilitza-9-2000x2666-76.jpg",
+                "onsale": "-50%",
+                "itemTitle": "MT Style 6",
+                "itemSubtitle": "Wilitza Collection",
+                "itemPrice": "$60.00",
+                "itemDescription": "Casual shoes (contact us for sizing)<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>385DDF5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=60&amp;item_name=Comprar+Ahora!&amp;currency_code=USD\" class=\"btn btn-primary\">Comprar Ahora!</a>",
+                "active": false
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "tags": "Creative",
+                "bestSeller": false,
+                "thumb": "@PROJECT_PATH@/assets/images/wilitza-10-2000x2666-58-2000x2666-8.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wilitza-10-2000x2666-58.jpg",
+                "onsale": "-50%",
+                "itemTitle": "Q Style 7",
+                "itemSubtitle": "Wilitza Collection",
+                "itemPrice": "$70.00",
+                "itemDescription": "Seen on photo. Check our gallery for more photos.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>340DDF5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=70&amp;item_name=Comprar+Ahora!&amp;currency_code=USD\" class=\"btn btn-primary\">Comprar Ahora!</a>",
+                "active": false
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "tags": "Creative",
+                "bestSeller": false,
+                "thumb": "@PROJECT_PATH@/assets/images/wilitza-11-2000x2666-16-2000x2666-31.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wilitza-11-2000x2666-16.jpg",
+                "onsale": "-50%",
+                "itemTitle": "T Style 8",
+                "itemSubtitle": "Wilitza Collection",
+                "itemPrice": "$60.00",
+                "itemDescription": "Hand-made! So they may differ.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>34556F5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=60&amp;item_name=Comprar+Ahora!&amp;currency_code=USD\" class=\"btn btn-primary\">Comprar Ahora!</a>",
+                "active": false
+              }
+            ],
+            "bgColor": "#fff",
+            "showTitle": true,
+            "showBestSellers": true,
+            "priceRange": true,
+            "filter": true
+          },
+          "_anchor": "extShop1-1",
+          "title": "Tienda",
+          "filter_by_d": "<a class=\"btn btn-primary\">Default sorting</a>",
+          "filter_by_pu": "<a class=\"btn btn-primary disableSortButton\">Precio: Bajo a Alto</a>",
+          "filter_by_pd": "<a class=\"btn btn-primary disableSortButton\">Precio: Alto a Bajo</a>",
+          "articleLayout": false,
+          "sidebar1": "Best Sellers",
+          "sidebar2": "Filter by price",
+          "price_range": "<a class=\"btn btn-primary filterPriceRange\">Filter</a>",
+          "price_range_reset": "<a class=\"btn btn-secondary\">Show all</a>",
+          "sidebar3": "Categorias",
+          "allItem": "Todos"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-2",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/background-1805710-1920-2000x1333-75.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": false
+          },
+          "title": "CONTÁCTANOS",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "form": {
+            "action": "josejimenezmorales@hotmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Nombre*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Teléfono"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Mensaje"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"icon54-send-mail2 mbr-iconfont mbr-iconfont-btn\"></span>ENVIAR</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extFooter1",
+          "_anchor": "extFooter1-4",
+          "_params": {
+            "progress": 50,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFooter1_bg.jpg",
+            "bgColor": "#262626",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.4,
+            "overlayColor": "#000",
+            "showLogo": true,
+            "showTitle": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFooter1.png"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "linkInNewWindow": false,
+              "name": "shopping-bag",
+              "family": "FontAwesome",
+              "link": "",
+              "size": 0,
+              "color": "#b8312f",
+              "active": true
+            }
+          },
+          "title": "&nbsp;WILIZTA COLLECTIONS",
+          "list": "<ul><li><a href=\"\">VARIEDAD</a></li><li><a href=\"index.html#extShop1-1\">SERVICIO</a></li><li><a href=\"index.html#form1-2\">CONTÁCTANOS</a></li></ul>",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "20px",
+              "text-align": "left"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
