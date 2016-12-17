@@ -670,6 +670,9 @@ h6,
 .extProgressBar5 .progress-primary[value]::-ms-fill {
   color: #f28281;
 }
+.theme-border {
+  border: 1px solid #f28281;
+}
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -729,7 +732,7 @@ h6,
 }
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-item[aria-expanded="true"] {
-  color: #c0a375!important;
+  color: #f28281!important;
 }
 #header1-3 .mbr-section-title {
   font-family: 'Indie Flower', cursive;
